@@ -24,6 +24,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <url>{{ site.url }}/suppe.jpg</url>
     <link>{{ site.url }}</link>
   </image>
+  {{ site.post }}
   {% for ep in site.posts %}
   <item>
     <title>{{ ep.title }}</title>
