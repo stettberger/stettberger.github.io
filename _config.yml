@@ -1,10 +1,2 @@
 podcast_url: http://stettberger.github.io
-podcast_album_art: /suppe.jpg
-podcast_title: Podcastsuppe
-podcast_owner: Christian Dietrich
-podcast_email: stettberger@dokucode.de
-podcast_category: Personal
-podcast_explicit: "no"
-podcast_author: Various Artists
-podcast_description: Just a Personal Podcast Feed
-podcast_summary: Soup
+podsoup: stettberger
