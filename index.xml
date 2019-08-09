@@ -22,13 +22,6 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <generator>http://jekyllrb.com</generator>
-<itunes:author>{{ site.podsoup }}</itunes:author>
-<itunes:explicit>yes</itunes:explicit>
-<itunes:image href="{{ site.url }}/suppe.jpg" />
-<itunes:owner>
-<itunes:name>{{ site.podcast_owner }}</itunes:name>
-<itunes:email>{{ site.podcast_email }}</itunes:email>
-</itunes:owner>
 <image>
 <title>{{ site.podcast_title }}</title>
 <url>{{ site.url }}/suppe.jpg</url>
@@ -56,11 +49,6 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     </content:encoded>
 
     <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-    <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
-    <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
-    <itunes:author>Various Artists</itunes:author>
-    <itunes:image href="{{ site.url }}/suppe.jpg" />
-    <itunes:explicit>yes</itunes:explicit>
   </item>
 {% endfor %}
 </channel>
