@@ -1,40 +1,13 @@
-name: Arcana
-description: Arcana template for Jekyll
-paginate: 10
-baseurl: ''
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://stettberger.github.io/'
-  relativeLinks: 'http://stettberger.github.io/links.jsonp'
-  media: 'media'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+podcast_url: http://www.joebuhlig.com/whaddyaknowjoe
+podcast_album_art: /assets/base/Whaddya-Know-Joe-Album-Art.png
+podcast_title: Whaddya Know Joe?
+podcast_owner: Joe Buhlig
+podcast_email: email@example.com
+podcast_category: Technology
+podcast_subcategory_one: Software How-To
+podcast_subcategory_two: Gadgets
+podcast_explicit: "no"
+podcast_author: Joe Buhlig
+podcast_description: Productivity stories from the trenches. What works and what I'll never do again. Hosted by Joe Buhlig.
+podcast_summary: Joe Buhlig walks you through real life story and then breaks down the productivity tools and techniques used. It's a great way to learn how to implement the tips and tricks that you see across the web. Productivity stories from the trenches. What works and what to never try.
+podcast_subtitle: Productivity stories from the trenches. What works and what I'll never do again. Hosted by Joe Buhlig.
